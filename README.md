@@ -19,14 +19,7 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 * **AI & Tech for Biodiversity:** Developing computational tools, VR, and AI models to study, track, and preserve organisms like octopuses and diptera in their natural habitats.
 * **Serious Games & Applied Science:** Creating digital environments and games for research and educational purposes.
 
-## 💻 Selected Applied Projects
-
-* **Diptera-VR:** A gamified Virtual Entomology Lab for science education using 3D Gaussian Splatting and VR.
-* **Timing Game:** A mobile serious game designed to enhance research on human temporal perception through Game Learning Analytics.
-
 ## 📚 Recent Publications
-
-TODO
 
 ---
 📫 **Contact:** joao.gois [[at]] ufabc.edu.br 
