@@ -11,7 +11,7 @@ Computer Science researcher and faculty member at the Federal University of ABC 
 
 ---
 
-## 🔬 Research Focus
+## Research Focus
 
 My work bridges the gap between fundamental Computer Graphics and applied interdisciplinary challenges:
 
@@ -19,7 +19,7 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 * **AI & Tech for Biodiversity:** Developing computational tools, VR, and AI models to study, track, and preserve organisms like octopuses and diptera in their natural habitats.
 * **Serious Games & Applied Science:** Creating digital environments and games for research and educational purposes.
 
-## 📚 Recent Publications
+## Recent Publications
 <!--SCHOLAR-LIST:START-->
 <!--SCHOLAR-LIST:END-->
-📫 **Contact:** joao.gois [[at]] ufabc.edu.br 
+**Contact:** joao.gois [[at]] ufabc.edu.br 
