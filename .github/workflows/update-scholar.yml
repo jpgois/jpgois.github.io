@@ -1,22 +1,67 @@
-name: Update Google Scholar Publications
+name: Update Publications from ORCID
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Roda todo dia à meia-noite (UTC)
-  workflow_dispatch: # Permite rodar o script manualmente
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update Scholar README
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch and update publications
-        uses: khengyun/readme-scholar-activity@main
-        with:
-          SCHOLAR_ID: '-AYhiyQAAAAJ' 
-          LIMIT: 3
+      - name: Fetch publications and update README
+        run: |
+          python -c '
+          import urllib.request, json, re
+          
+          # Consulta a API pública oficial usando o seu ORCID
+          url = "https://api.crossref.org/authors/0000-0002-9437-6943/works?sort=published&order=desc&rows=3"
+          req = urllib.request.Request(url, headers={"User-Agent": "UFABC-Profile-Bot"})
+          
+          try:
+              data = json.loads(urllib.request.urlopen(req).read())
+              pubs = []
+              for item in data["message"]["items"]:
+                  title = item.get("title", ["Sem título"])[0]
+                  link = item.get("URL", "#")
+                  
+                  # Extrai o ano da publicação
+                  try:
+                      year = item.get("published", {}).get("date-parts", [[None]])[0][0]
+                      year = f" ({year})" if year else ""
+                  except:
+                      year = ""
+                      
+                  pubs.append(f"- **{title}**{year}<br>[Acessar artigo]({link})")
+              
+              with open("README.md", "r", encoding="utf-8") as f:
+                  readme = f.read()
+              
+              # Prepara o texto para injetar entre as tags
+              new_pubs = "\n\n" + "\n\n".join(pubs) + "\n\n"
+              new_readme = re.sub(
+                  r"().*?()",
+                  f"\\1{new_pubs}\\2",
+                  readme,
+                  flags=re.DOTALL
+              )
+              
+              with open("README.md", "w", encoding="utf-8") as f:
+                  f.write(new_readme)
+              print("Sucesso!")
+          except Exception as e:
+              print(f"Erro: {e}")
+          '
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Atualiza publicações via ORCID" || echo "Nenhuma mudança para commitar"
+          git push
