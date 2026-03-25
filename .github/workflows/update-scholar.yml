@@ -1,0 +1,22 @@
+name: Update Google Scholar Publications
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Roda todo dia à meia-noite (UTC)
+  workflow_dispatch: # Permite rodar o script manualmente
+
+jobs:
+  update-readme:
+    name: Update Scholar README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and update publications
+        uses: khengyun/readme-scholar-activity@main
+        with:
+          SCHOLAR_ID: '-AYhiyQAAAAJ' 
+          LIMIT: 3
