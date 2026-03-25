@@ -19,8 +19,8 @@ jobs:
           python -c '
           import urllib.request, json, re, sys
           
-          # Consulta a API publica oficial usando o seu ORCID
-          url = "https://api.crossref.org/authors/0000-0002-9437-6943/works?sort=published&order=desc&rows=3"
+          # URL corrigida: busca trabalhos aplicando um filtro pelo seu ORCID
+          url = "https://api.crossref.org/works?filter=orcid:0000-0002-9437-6943&sort=published&order=desc&rows=3"
           
           # Header de identificacao amigavel para a API
           headers = {"User-Agent": "UFABC-Profile-Bot/1.0 (joao.gois@ufabc.edu.br)"}
