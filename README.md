@@ -1,7 +1,7 @@
-# João Paulo Gois
+# João Paulo Gois,  Ph.D. in Computer Science and Computational Mathematics
 
- Computer Science researcher and faculty member at the Federal University of ABC (UFABC), Brazil. 
- Ph.D. in Computer Science and Computational Mathematics.
+ ## Computer Science researcher and faculty member at the Federal University of ABC (UFABC), Brazil. 
+
 
 <div align="center">
   <a href="https://joao-gois.prof.ufabc.edu.br/" target="_blank"><img src="https://img.shields.io/badge/UFABC-Profile-006400?style=for-the-badge" alt="UFABC"></a>
