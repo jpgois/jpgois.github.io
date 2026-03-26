@@ -1,20 +1,7 @@
-
-
-- **The Rise of AI-Generated Anime Avatars: Trends, Challenges, and Opportunities** (2026)<br>[Read article](https://doi.org/10.1109/mcg.2025.3627323)
-
-- **FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation** (2025)<br>[Read article](https://doi.org/10.1016/j.cag.2025.104374)
-
-- **Reinforcement Learning for Circular Sparsest Packing Problems** (2025)<br>[Read article](https://doi.org/10.3233/faia250517)
-
-- **The Timing Game for Research on Temporal Perception** (2025)<br>[Read article](https://doi.org/10.5753/jis.2025.5024)
-
-- **TANGAN: solving Tangram puzzles using generative adversarial network** (2025)<br>[Read article](https://doi.org/10.1007/s10489-025-06364-x)
-
 # João Paulo Gois
 
-Computer Science researcher and faculty member at the Federal University of ABC (UFABC), Brazil. 
-
-Ph.D. in Computer Science and Computational Mathematics.
+- Computer Science researcher and faculty member at the Federal University of ABC (UFABC), Brazil. 
+- Ph.D. in Computer Science and Computational Mathematics.
 
 <div align="center">
   <a href="https://joao-gois.prof.ufabc.edu.br/" target="_blank"><img src="https://img.shields.io/badge/UFABC-Profile-006400?style=for-the-badge" alt="UFABC"></a>
@@ -25,7 +12,7 @@ Ph.D. in Computer Science and Computational Mathematics.
 
 ---
 
-## Research Focus
+##  Research Focus
 
 My work bridges the gap between fundamental Computer Graphics and applied interdisciplinary challenges:
 
@@ -33,7 +20,7 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 * **AI & Tech for Biodiversity:** Developing computational tools, VR, and AI models to study, track, and preserve organisms like octopuses and diptera in their natural habitats.
 * **Serious Games & Applied Science:** Creating digital environments and games for research and educational purposes.
 
-## Recent Publications
-<!--SCHOLAR-LIST:START-->
-<!--SCHOLAR-LIST:END-->
-**Contact:** joao.gois [[at]] ufabc.edu.br 
+##  Recent Publications
+
+---
+ **Contact:** joao.gois [at] ufabc.edu.br
