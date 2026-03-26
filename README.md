@@ -20,7 +20,7 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 * **AI & Tech for Biodiversity:** Developing computational tools, VR, and AI models to study, track, and preserve organisms like octopuses and diptera in their natural habitats.
 * **Serious Games & Applied Science:** Creating digital environments and games for research and educational purposes.
 
-##  Recent Publications
+##  Selected Publications
 <!--SCHOLAR-LIST:START-->
 
 - **FlowCheck: A Discrete Flow Matching Approach for Generating Chess Configurations** (2025). *SIBGRAPI Conference on Graphics, Patterns and Images*. [DOI: 10.1109/SIBGRAPI67909.2025.11223360](https://doi.org/10.1109/SIBGRAPI67909.2025.11223360) 
