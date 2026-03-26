@@ -1,6 +1,6 @@
 # João Paulo Gois
 
-Associate Professor at the Federal University of ABC (UFABC). Ph.D. in Computer Science and Computational Mathematics from ICMC-USP.
+Professor at the Federal University of ABC (UFABC). Ph.D. in Computer Science and Computational Mathematics from ICMC-USP.
 
 <div align="left">
   <a href="https://joao-gois.prof.ufabc.edu.br/" target="_blank"><img src="https://img.shields.io/badge/UFABC-Profile-24292e?style=flat&logo=googlescholar" alt="UFABC"></a>
