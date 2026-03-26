@@ -23,16 +23,17 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 ##  Recent Publications
 <!--SCHOLAR-LIST:START-->
 
-- **The Rise of AI-Generated Anime Avatars: Trends, Challenges, and Opportunities** (2026)<br>[Read article](https://doi.org/10.1109/mcg.2025.3627323)
+- **FlowCheck: A Discrete Flow Matching Approach for Generating Chess Configurations** (2025). *SIBGRAPI Conference on Graphics, Patterns and Images*. [cite_start][DOI: 10.1109/SIBGRAPI67909.2025.11223360](https://doi.org/10.1109/SIBGRAPI67909.2025.11223360) [cite: 489, 490]
 
-- **FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation** (2025)<br>[Read article](https://doi.org/10.1016/j.cag.2025.104374)
+- **The Flow of Creation: A Tour of Flow Matching for Visuals** (2025). *SIBGRAPI Conference on Graphics, Patterns and Images*. [cite_start][DOI: 10.1109/SIBGRAPI67909.2025.11223388](https://doi.org/10.1109/SIBGRAPI67909.2025.11223388) [cite: 491, 492]
 
-- **Reinforcement Learning for Circular Sparsest Packing Problems** (2025)<br>[Read article](https://doi.org/10.3233/faia250517)
+- **FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation** (2025). *Computers & Graphics*. [cite_start][DOI: 10.1016/j.cag.2025.104374](https://doi.org/10.1016/j.cag.2025.104374) [cite: 415, 416]
 
-- **The Timing Game for Research on Temporal Perception** (2025)<br>[Read article](https://doi.org/10.5753/jis.2025.5024)
+- **The Timing Game for Research on Temporal Perception** (2025). *Journal on Interactive Systems*. [cite_start][DOI: 10.5753/jis.2025.5024](https://doi.org/10.5753/jis.2025.5024) [cite: 421, 422]
 
-- **TANGAN: solving Tangram puzzles using generative adversarial network** (2025)<br>[Read article](https://doi.org/10.1007/s10489-025-06364-x)
+- **Artificial Intelligence as Catalyst for Biodiversity Understanding** (2025). *Communications of the ACM*. [cite_start][DOI: 10.1145/3701570](https://doi.org/10.1145/3701570) [cite: 419, 420]
 
+- **Laplacian Coordinates: Theory and Methods for Seeded Image Segmentation** (2021). *IEEE Transactions on Pattern Analysis and Machine Intelligence*. [cite_start][DOI: 10.1109/TPAMI.2020.2974475](https://doi.org/10.1109/TPAMI.2020.2974475) [cite: 447, 448]
 <!--SCHOLAR-LIST:END-->
 ---
  **Contact:** joao.gois [at] ufabc.edu.br
