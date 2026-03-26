@@ -23,17 +23,23 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 ##  Selected Publications
 <!--SCHOLAR-LIST:START-->
 
-- **FlowCheck: A Discrete Flow Matching Approach for Generating Chess Configurations** (2025). *SIBGRAPI Conference on Graphics, Patterns and Images*. [DOI: 10.1109/SIBGRAPI67909.2025.11223360](https://doi.org/10.1109/SIBGRAPI67909.2025.11223360) 
 
-- **The Flow of Creation: A Tour of Flow Matching for Visuals** (2025). *SIBGRAPI Conference on Graphics, Patterns and Images*. [DOI: 10.1109/SIBGRAPI67909.2025.11223388](https://doi.org/10.1109/SIBGRAPI67909.2025.11223388) 
+- **[The Rise of AI-Generated Anime Avatars: Trends, Challenges, and Opportunities](https://doi.org/10.1109/MCG.2025.3627323)** *IEEE Computer Graphics and Applications* (2026).
 
-- **FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation** (2025). *Computers & Graphics*. [DOI: 10.1016/j.cag.2025.104374](https://doi.org/10.1016/j.cag.2025.104374)
+- **[FlowCheck: A Discrete Flow Matching Approach for Generating Chess Configurations](https://doi.org/10.1109/SIBGRAPI67909.2025.11223360)** *SIBGRAPI Conference on Graphics, Patterns and Images* (2025).
 
-- **The Timing Game for Research on Temporal Perception** (2025). *Journal on Interactive Systems*. [DOI: 10.5753/jis.2025.5024](https://doi.org/10.5753/jis.2025.5024)
+- **[The Flow of Creation: A Tour of Flow Matching for Visuals](https://doi.org/10.1109/SIBGRAPI67909.2025.11223388)** *SIBGRAPI Conference on Graphics, Patterns and Images* (2025).
 
-- **Artificial Intelligence as Catalyst for Biodiversity Understanding** (2025). *Communications of the ACM*. [DOI: 10.1145/3701570](https://doi.org/10.1145/3701570)
+- **[FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation](https://doi.org/10.1016/j.cag.2025.104374)** *Computers & Graphics* (2025).
 
-- **Laplacian Coordinates: Theory and Methods for Seeded Image Segmentation** (2021). *IEEE Transactions on Pattern Analysis and Machine Intelligence*. [DOI: 10.1109/TPAMI.2020.2974475](https://doi.org/10.1109/TPAMI.2020.2974475) 
+- **[The Timing Game for Research on Temporal Perception](https://doi.org/10.5753/jis.2025.5024)** *Journal on Interactive Systems* (2025).
+
+- **[Artificial Intelligence as Catalyst for Biodiversity Understanding](https://doi.org/10.1145/3701570)** *Communications of the ACM* (2025).
+
+-  **[Comparing Phylogenetic Trees Side by Side Through iPhyloC, a New Interactive Web-Based Framework](https://doi.org/10.1089/cmb.2021.0351)** *Journal of Computational Biology* (2022). 
+
+- **[Laplacian Coordinates: Theory and Methods for Seeded Image Segmentation](https://doi.org/10.1109/TPAMI.2020.2974475)** *IEEE Transactions on Pattern Analysis and Machine Intelligence* (2021).
+
 <!--SCHOLAR-LIST:END-->
 ---
  **Contact:** joao.gois [at] ufabc.edu.br
