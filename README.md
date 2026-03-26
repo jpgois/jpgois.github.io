@@ -1,3 +1,15 @@
+
+
+- **The Rise of AI-Generated Anime Avatars: Trends, Challenges, and Opportunities** (2026)<br>[Read article](https://doi.org/10.1109/mcg.2025.3627323)
+
+- **FlowMotion: Target-predictive conditional flow matching for Jitter-Reduced text-driven human motion generation** (2025)<br>[Read article](https://doi.org/10.1016/j.cag.2025.104374)
+
+- **Reinforcement Learning for Circular Sparsest Packing Problems** (2025)<br>[Read article](https://doi.org/10.3233/faia250517)
+
+- **The Timing Game for Research on Temporal Perception** (2025)<br>[Read article](https://doi.org/10.5753/jis.2025.5024)
+
+- **TANGAN: solving Tangram puzzles using generative adversarial network** (2025)<br>[Read article](https://doi.org/10.1007/s10489-025-06364-x)
+
 # João Paulo Gois
 
 Computer Science researcher and faculty member at the Federal University of ABC (UFABC), Brazil. 
