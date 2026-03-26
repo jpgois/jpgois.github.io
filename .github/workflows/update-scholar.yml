@@ -17,51 +17,50 @@ jobs:
       - name: Fetch publications and update README
         run: |
           python -c '
-          import urllib.request, json, re, sys
+          import urllib.request, json, sys
           
-          # URL corrigida: busca trabalhos aplicando um filtro pelo seu ORCID
-          url = "https://api.crossref.org/works?filter=orcid:0000-0002-9437-6943&sort=published&order=desc&rows=3"
-          
-          # Header de identificacao amigavel para a API
-          headers = {"User-Agent": "UFABC-Profile-Bot/1.0 (joao.gois@ufabc.edu.br)"}
+          # Busca os 5 trabalhos mais recentes (rows=5)
+          url = "https://api.crossref.org/works?filter=orcid:0000-0002-9437-6943&sort=published&order=desc&rows=5"
+          headers = {"User-Agent": "Profile-Bot/1.0 (joao.gois@ufabc.edu.br)"}
           req = urllib.request.Request(url, headers=headers)
           
           try:
               data = json.loads(urllib.request.urlopen(req).read())
               pubs = []
               for item in data["message"]["items"]:
-                  title = item.get("title", ["Sem título"])[0]
+                  title = item.get("title", ["Untitled"])[0]
                   link = item.get("URL", "#")
                   
-                  # Extrai o ano da publicacao
+                  # Extrai o ano
                   try:
                       year = item.get("published", {}).get("date-parts", [[None]])[0][0]
                       year = f" ({year})" if year else ""
                   except:
                       year = ""
                       
-                  pubs.append(f"- **{title}**{year}<br>[Acessar artigo]({link})")
+                  # Formata em ingles
+                  pubs.append(f"- **{title}**{year}<br>[Read article]({link})")
               
               with open("README.md", "r", encoding="utf-8") as f:
                   readme = f.read()
               
-              # Prepara o texto
-              new_pubs = "\n" + "\n\n".join(pubs) + "\n"
+              start_tag = ""
+              end_tag = ""
               
-              # Busca EXATAMENTE as tags do seu arquivo
-              new_readme = re.sub(
-                  r"().*?()",
-                  f"\\1{new_pubs}\\2",
-                  readme,
-                  flags=re.DOTALL
-              )
-              
-              if readme == new_readme:
-                  print("As tags não foram encontradas no README ou não há alterações.")
-              else:
+              # Metodo cirurgico: substitui apenas o que esta EXATAMENTE entre as tags
+              if start_tag in readme and end_tag in readme:
+                  start_idx = readme.find(start_tag) + len(start_tag)
+                  end_idx = readme.find(end_tag)
+                  
+                  new_pubs_text = "\n\n" + "\n\n".join(pubs) + "\n\n"
+                  new_readme = readme[:start_idx] + new_pubs_text + readme[end_idx:]
+                  
                   with open("README.md", "w", encoding="utf-8") as f:
                       f.write(new_readme)
                   print("README atualizado com sucesso!")
+              else:
+                  print("Erro: As tags exatas nao foram encontradas no README.md")
+                  sys.exit(1)
                   
           except Exception as e:
               print(f"Erro no script Python: {e}")
