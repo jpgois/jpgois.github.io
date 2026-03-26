@@ -19,7 +19,7 @@ jobs:
           python -c '
           import urllib.request, json, sys
           
-          # Busca os 5 trabalhos mais recentes (rows=5)
+          # Busca os 5 trabalhos mais recentes
           url = "https://api.crossref.org/works?filter=orcid:0000-0002-9437-6943&sort=published&order=desc&rows=5"
           headers = {"User-Agent": "Profile-Bot/1.0 (joao.gois@ufabc.edu.br)"}
           req = urllib.request.Request(url, headers=headers)
@@ -38,28 +38,28 @@ jobs:
                   except:
                       year = ""
                       
-                  # Formata em ingles
                   pubs.append(f"- **{title}**{year}<br>[Read article]({link})")
               
               with open("README.md", "r", encoding="utf-8") as f:
                   readme = f.read()
               
+              pubs_formatted = "\n\n" + "\n\n".join(pubs) + "\n\n"
               start_tag = ""
               end_tag = ""
               
-              # Metodo cirurgico: substitui apenas o que esta EXATAMENTE entre as tags
+              # Metodo cirurgico de substituicao
               if start_tag in readme and end_tag in readme:
-                  start_idx = readme.find(start_tag) + len(start_tag)
-                  end_idx = readme.find(end_tag)
+                  parts = readme.split(start_tag)
+                  before_tag = parts[0]
+                  after_tag = parts[1].split(end_tag, 1)[1]
                   
-                  new_pubs_text = "\n\n" + "\n\n".join(pubs) + "\n\n"
-                  new_readme = readme[:start_idx] + new_pubs_text + readme[end_idx:]
+                  new_readme = before_tag + start_tag + pubs_formatted + end_tag + after_tag
                   
                   with open("README.md", "w", encoding="utf-8") as f:
                       f.write(new_readme)
                   print("README atualizado com sucesso!")
               else:
-                  print("Erro: As tags exatas nao foram encontradas no README.md")
+                  print("Erro: As tags exatas não foram encontradas no arquivo.")
                   sys.exit(1)
                   
           except Exception as e:
