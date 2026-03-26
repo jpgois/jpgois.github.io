@@ -44,8 +44,10 @@ jobs:
                   readme = f.read()
               
               pubs_formatted = "\n\n" + "\n\n".join(pubs) + "\n\n"
-              start_tag = ""
-              end_tag = ""
+              
+              # Tática para a interface do chat nao apagar as tags:
+              start_tag = "<" + "!--SCHOLAR-LIST:START--" + ">"
+              end_tag = "<" + "!--SCHOLAR-LIST:END--" + ">"
               
               # Metodo cirurgico de substituicao
               if start_tag in readme and end_tag in readme:
