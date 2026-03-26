@@ -21,6 +21,7 @@ My work bridges the gap between fundamental Computer Graphics and applied interd
 * **Serious Games & Applied Science:** Creating digital environments and games for research and educational purposes.
 
 ##  Recent Publications
-
+<!--SCHOLAR-LIST:START-->
+<!--SCHOLAR-LIST:END-->
 ---
  **Contact:** joao.gois [at] ufabc.edu.br
