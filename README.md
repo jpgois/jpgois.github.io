@@ -14,7 +14,7 @@ Professor at the Federal University of ABC (UFABC). Ph.D. in Computer Science an
 ### Research Focus
 
 * **Generative AI & Graphics**
-* **AI for Biodiversity**
+* **AI for Biodiversity** [https://jpgois.github.io/bioinformatics-web-tools/](Web tools)
 * **Applied Computing & Serious Games**
 
 ---
