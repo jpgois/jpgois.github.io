@@ -21,4 +21,3 @@ Professor at the Federal University of ABC (UFABC). Ph.D. in Computer Science an
 📫 **Contact:** joao.gois [at] ufabc.edu.br
 
 --- 
-[(Substituição CG)](https://drive.google.com/drive/folders/1ljVKM7uUczG1ryQQimyHgAYafasZ5Shv?usp=sharing)
